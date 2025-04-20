@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL WEBSITES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd19e70663.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#QUIZZES">Quizzes</a></li>
+                    <li><a href="#PROJECTS">Projects</a></li>
+                    <li><a href="#ABOUT">About</a></li>
+                    <li><a href="#IMAGE">Image</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header-text">
+            <p>IT/STUDENT</p>
+            <h1>Hi,this is my <span>WEB</span><br>PORTFOLIO</h1>
+           </div> 
+        </div>
+    </div>
+    <!-- -----------quizzes---------- -->
+    <div id="QUIZZES">
+        <div class="container">
+            <h1 class="sub-title">QUIZZES</h1> 
+            <div class="quizzes-list">
+                <div class="quiz">
+                    <img src="img/pretest1.png">
+                <div class="quiz">
+                    <img src="img/pretest2.png">                
+                </div>
+                <div class="quiz">
+                    <img src="img/pretest3.png">
+                </div>
+                <div class="quiz">
+                    <img src="img/pretest4.png">
+                </div>
+                <div class="quiz">
+                    <img src="img/pretest5.png">
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- --------------projects------------- -->
+<div id="PROJECTS">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages, many of which combine 
+                    text with sounds, pictures, graphics and video clips.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with 
+                    product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p>The application designer gathers requirements from business systems analysts and end users. The designer also determines which 
+                    IT resources will be available to support the application.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------about------------------ -->
+<div id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.png.jpg">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">ABOUT</h1> 
+               <p>Hello My name is Xander Brix Gabriel im 21yrs old then im fron in New Era Dasma Cavite im a 3rd year student and my course is BSIT </p>
+
+               <div class="tab-tiltes">
+                <p class="tab-links active-link" onclick="opentab('Dream Job')">Dream Job</p>
+                <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                <p class="tab-links" onclick="opentab('Graduate School')">Graduate School</p>
+               </div>
+               <div class="tab-contents active-tab" id="Dream Job">
+                <ul>
+                    <li><span>ComputerProgrammer</span><br>This computer programmer is using coding languages like HTML,JAVASCRIPT & CSS.</li>
+                    <li><span>Web Developer</span><br>This web developer is design the appearance and content organization of a websites. </li>
+                    <li><span>Database Administrator</span><br>This Database Administrators employ specialized software to organize and keep track of data. </li>
+                </ul>
+               </div> <div class="tab-contents" id="Hobbies">
+                <ul>
+                    <li><span>Playing Basketball</span><br>With my friends</li>
+                    <li><span>Playing Online Games</span><br>Dota 2,CODM,VALORANT</li>
+                    <li><span>Listening to music</span><br>Jopay,Beer,Banyo Queen</li>
+                </ul>
+               </div> <div class="tab-contents" id="Graduate School">
+                <ul>
+                    <li><span>Grade 6/2015</span><br>I graduated in Pamonoran Elementary School in Zambales</li>
+                    <li><span>Junior HighSchool Grade 10/2019</span><br>I graduated in New Era National HighSchool in Dasma Cavite</li>
+                    <li><span>Senior High Grade 12/2022</span><br>I graduated in Philippine Christian University in Dasma Cavite</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+     <!--------------------image----------------->
+     <div id="IMAGE">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/pretest1.png">
+                    <div class="layer">
+                        <h3>ONLINE SHOP</h3>
+                        <p>This online-shop is connects you to the talented people around the world. You can Download this App in App-Store or Play-Store.</p>
+                        <a href="#"><i class="fa-brands fa-shopify"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/pretest2.png">
+                    <div class="layer">
+                        <h3>SOCIAL APP SHOP</h3>
+                        <p>This app is connects to the talented people around the world. You can Download this App in App-Store or Play-Store. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/pretest3.png">
+                    <div class="layer">
+                        <h3>SPOTIFY/MUSIC APP</h3>
+                        <p>This music app connects you to talented people around the world. You can Download this App in App-Store or Play-Store.</p>
+                        <a href="#"><i class="fa-solid fa-music"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+    
+<!-- -------------contact---------------- -->
+<div id="CONTACT">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> gabrielxanderbrix@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09611498766</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.com/login"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright XBG <i class="fa-solid fa-heart"></i> igop.</p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right = "200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
